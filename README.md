@@ -9,12 +9,14 @@ This repository provides a conceptual overview and an empirical benchmark of cla
 ```text
 .
 ├── Anomalydetection.py           # Main benchmark script (5-fold CV)
-├── anomaly_results_summary.csv   # Aggregated evaluation metrics (mean across folds)
-├── plot1_bars.png                # Bar charts comparing AUROC, AP, and F1
-├── plot2_heatmap.png             # AUROC heatmap across datasets and methods
-├── plot3_cm_Speech.png           # Confusion matrices – Speech
-├── plot3_cm_Mammography.png      # Confusion matrices – Mammography
-├── plot3_cm_Optdigits.png        # Confusion matrices – Optdigits
+├── Results
+├───── anomaly_results_summary.csv   # Aggregated evaluation metrics (mean across folds)
+├───── plot1_bars.png                # Bar charts comparing AUROC, AP, and F1
+├───── plot2_heatmap.png             # AUROC heatmap across datasets and methods
+├───── plot3_cm_Speech.png           # Confusion matrices – Speech
+├───── plot3_cm_Mammography.png      # Confusion matrices – Mammography
+├───── plot3_cm_Optdigits.png        # Confusion matrices – Optdigits
+├─── Data
 └── README.md
 ```
 
